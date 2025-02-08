@@ -1,0 +1,134 @@
+body {
+    background-color: #5F7161        ;
+    background-repeat: no-repeat;
+    list-style-position: inside;
+    justify-content: start;
+    align-items: start;
+    margin: 3rem 4rem;
+    color: #F7E7CE;
+    font-family: 'Poppins', sans-serif;
+}
+
+#profile_pic {
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 600%;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    font-weight: 500;
+
+}
+
+
+.img-intro {
+    display: flex;
+    align-items: center; 
+}
+
+button {
+  color: #F7E7CE;
+  background-color: transparent; /* Or any color you want */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Merriweather', sans-serif;
+}
+
+button:hover {
+    background-color: #748A75;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end; /* Moves buttons to the right */
+    padding: 10px 20px;
+  }
+  
+  .top-nav ul {
+    list-style: none; /* Removes bullets */
+    display: flex;
+    gap: 20px; /* Spacing between buttons */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #F7E7CE;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .top-nav a:hover {
+    background-color: #748A75; /* Hover effect */
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;           /* Adds space between each icon */
+    margin-top: 20px;
+    flex-wrap: wrap;     /* Wraps icons on smaller screens */
+}
+
+.social-button {
+    display: inline-flex;
+    width: 32px;         /* Set the desired width */
+    height: 32px;        /* Set the desired height */
+}
+
+.social-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the image fits within its dimensions */
+    border-radius: 5px;  /* Optional: rounded corners */
+    transition: transform 0.3s;
+}
+
+.social-button:hover img {
+    transform: scale(1.2); /* Enlarge slightly on hover */
+}
+
+/* Box styling for each section */
+.section-box {
+    background-color: #748A75; /* Light background color */
+    border-radius: 16px;       /* Rounded corners */
+    padding: 20px 30px;
+    margin: 20px 0;
+    margin-left: 21.5rem;
+}
+
+.section-box h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.section-box ul {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #F7E7CE;
+    padding-left: 20px;
+}
+
+.section-box ul li {
+    margin: 10px 0;
+}
+
+.section-box:hover {
+    transform: translateY(-5px); /* Moves box slightly on hover */
+    transition: transform 0.3s;
+}
+
+h2 {
+    color: #FAF3E0   ; 
+}
