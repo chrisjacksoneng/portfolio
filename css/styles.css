@@ -45,10 +45,16 @@ button:hover {
 
 .top-nav {
     display: flex;
-    justify-content: flex-end; /* Moves buttons to the right */
+    justify-content: space-between; /* Moves buttons to the right */
     padding: 10px 20px;
+    align-items: center;
   }
   
+  .nav-logo {
+    height: 8rem;      /* Adjust the size as needed */
+    width: 8rem;
+    object-fit: contain;
+}
   .top-nav ul {
     list-style: none; /* Removes bullets */
     display: flex;
