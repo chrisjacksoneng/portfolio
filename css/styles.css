@@ -29,7 +29,7 @@ h1 {
 
 button {
   color: #F7E7CE;
-  background-color: transparent; /* Or any color you want */
+  background-color: transparent;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -46,14 +46,17 @@ button:hover {
 .top-nav {
     display: flex;
     justify-content: space-between; /* Moves buttons to the right */
-    padding: 10px 20px;
+    padding: 0px 20px;
     align-items: center;
+    margin-top: -3.5rem;
   }
   
   .nav-logo {
-    height: 8rem;      /* Adjust the size as needed */
+    height: 10rem;      /* Adjust the size as needed */
     width: 8rem;
     object-fit: contain;
+    margin: 0;
+    padding: 0;
 }
   .top-nav ul {
     list-style: none; /* Removes bullets */
