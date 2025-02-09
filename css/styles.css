@@ -61,12 +61,12 @@ button:hover {
   text-decoration: none;
   color: #f7e7ce;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 50%;
   transition: background 0.3s;
 }
 
 .top-nav a:hover {
-  background-color: #748a75; /* Hover effect */
+  background-color: transparent; /* Hover effect */
 }
 
 .social-links {
@@ -191,6 +191,7 @@ h3 {
   width: 9rem;
   object-fit: contain;
   transition: transform 0.3s ease;
+  margin-left: -5rem;
 }
 
 .nav-logo-container:hover .nav-logo {
