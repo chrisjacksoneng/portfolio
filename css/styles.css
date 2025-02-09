@@ -49,13 +49,6 @@ button:hover {
   margin-top: -3.5rem;
 }
 
-.nav-logo {
-  height: 10rem; /* Adjust the size as needed */
-  width: 8rem;
-  object-fit: contain;
-  margin: 0;
-  padding: 0;
-}
 .top-nav ul {
   list-style: none; /* Removes bullets */
   display: flex;
@@ -177,4 +170,29 @@ h3 {
   to {
     border-right: 0;
   }
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%; /* Circular hitbox */
+  transition: all 0.3s ease;
+}
+
+.nav-logo-container:hover {
+  background-color: rgba(116, 138, 117, 0.5); /* Optional hover effect */
+}
+
+.nav-logo {
+  height: 9rem; /* Logo size */
+  width: 9rem;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.nav-logo-container:hover .nav-logo {
+  transform: scale(1.2); /* Enlarge the logo */
 }
