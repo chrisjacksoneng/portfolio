@@ -10,7 +10,7 @@ body {
 }
 
 #profile_pic {
-    border-radius: 50%;
+    width: 20rem;
 }
 
 h1 {
