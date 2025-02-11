@@ -198,3 +198,20 @@ h3 {
 .nav-logo-container:hover .nav-logo {
   transform: scale(1.2); /* Enlarge the logo */
 }
+
+.button-link {
+  display: inline-block; /* Makes the <a> behave like a block-level element */
+  padding: 10px 20px; /* Adds padding for a larger clickable hitbox */
+  text-decoration: none; /* Removes underline */
+  color: #f7e7ce; /* Text color */
+  font-size: 16px; /* Text size */
+  font-family: "Merriweather", sans-serif;
+  background-color: transparent; /* Default background */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button-link:hover {
+  background-color: #748a75; /* Background color on hover */
+}
