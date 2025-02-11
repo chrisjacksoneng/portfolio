@@ -199,7 +199,7 @@ h3 {
   transform: scale(1.2); /* Enlarge the logo */
 }
 
-.button-link {
+#home-btn {
   display: inline-block; /* Makes the <a> behave like a block-level element */
   padding: 10px 20px; /* Adds padding for a larger clickable hitbox */
   text-decoration: none; /* Removes underline */
@@ -212,6 +212,6 @@ h3 {
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-.button-link:hover {
+#home-btn:hover {
   background-color: #748a75; /* Background color on hover */
 }
