@@ -178,16 +178,16 @@ h3 {
   align-items: center;
   height: 12rem;
   width: 12rem;
-  border-radius: 50%; /* Circular hitbox */
+  border-radius: 50%;
   transition: all 0.3s ease;
 }
 
 .nav-logo-container:hover {
-  background-color: rgba(116, 138, 117, 0.5); /* Optional hover effect */
+  background-color: rgba(116, 138, 117, 0.5);
 }
 
 .nav-logo {
-  height: 11rem; /* Logo size */
+  height: 11rem;
   width: 11rem;
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -195,7 +195,7 @@ h3 {
 }
 
 .nav-logo-container:hover .nav-logo {
-  transform: scale(1.2); /* Enlarge the logo */
+  transform: scale(1.2);
 }
 
 #home-btn {
