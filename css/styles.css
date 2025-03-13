@@ -15,9 +15,9 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   margin-left: 3rem;
-  margin-top: -2rem;
+  margin-top: -4rem;
   font-weight: 500;
 }
 
@@ -223,10 +223,18 @@ h3 {
   padding: 0;
   margin-top: 10px;
   margin-left: 3.65rem;
+  margin-bottom: 4rem;
 }
 
 #email-size {
   width: 2.5rem;
   height: 2.5rem;
   margin-top: 0.5rem;
+}
+
+#see-work {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 3.4rem;
+  color: #f7e7ce;
 }
